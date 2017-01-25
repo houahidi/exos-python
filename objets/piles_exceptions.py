@@ -8,7 +8,7 @@ class PilePleineException(Exception):
 
 class Pile(object):
 
-    
+
     """Pile de type FILO"""
     def __init__(self, taille=10):
         self.__elements = []
