@@ -1,8 +1,7 @@
 """
  modul doc
-"
-
 """
+
 print locals()
 
 def moyenne(liste):
