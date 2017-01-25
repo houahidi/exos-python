@@ -7,6 +7,8 @@ class PilePleineException(Exception):
         return "PilePleine(message:{0})".format(self.args)
 
 class Pile(object):
+
+    
     """Pile de type FILO"""
     def __init__(self, taille=10):
         self.__elements = []
